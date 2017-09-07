@@ -14,7 +14,7 @@
     <body>
         <h2>Name Entry</h2>
         
-        <form name="nameForm" id="nameForm" method="POST" action="GreetingMessageController">
+        <form name="nameForm" id="nameForm" method="POST" action="greeter">
             Enter Name: <input type="text" value="" name="userName">
             <br>
             <input type="submit" name="submit" value="Submit">

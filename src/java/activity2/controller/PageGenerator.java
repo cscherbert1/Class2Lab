@@ -35,6 +35,7 @@ public class PageGenerator extends HttpServlet {
             out.println("<p>Date: 08/31/2017 </p>");
             out.println("<br>");
             
+            //could print this with a loop for efficiency?
            out.println("<table id='attendanceTable' name = 'attendanceTable'>");
                 out.println("<tr>");
                     out.println("<th> Student Id </th>");
