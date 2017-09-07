@@ -19,10 +19,8 @@ public class WelcomeService {
             timeOfDay = "Good Morning";       
         }else if(currentTime >= 12 && currentTime < 16){
             timeOfDay = "Good Afternoon";
-        }else if(currentTime >= 16 && currentTime < 21){
+        }else if(currentTime >= 16 && currentTime < 24){
             timeOfDay = "Good Evening";
-        }else if(currentTime >= 21 && currentTime < 24){
-            timeOfDay = "Good Night";
         }
         
         return timeOfDay;
