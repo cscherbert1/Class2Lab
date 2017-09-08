@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class WelcomeService {
     
-    Calendar now = Calendar.getInstance();
+    private Calendar now = Calendar.getInstance();
     
     public String getTimeOfDay(Calendar now){
         if(now == null){
